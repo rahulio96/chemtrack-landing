@@ -1,7 +1,9 @@
-body {
+html, body {
   font-family: 'Inter', sans-serif;
-  padding: 20px;
+  padding: 10px;
   background-color: #F9F9F9;
+  height: 90%;
+  justify-content: center;
 }
 
 .container {
@@ -10,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   width: 100%;
   height: 100%;
   text-align: center;
@@ -41,7 +43,7 @@ h3 {
   padding: 20px;
   width: 260px;
   margin-bottom: 20px;
-  background-color: #0F82FF;
+  
   border: transparent;
   border-radius: 10px;
   font-size: large;
@@ -60,6 +62,14 @@ h3 {
 }
 
 .apple {
+  background-color: #000000;
+}
+
+.android {
+  background-color: #0F82FF;
+}
+
+.apple-icon {
   width: 20px;
   padding-bottom: 5px;
   height: auto;
@@ -67,9 +77,19 @@ h3 {
   position: absolute;
 }
 
-.android {
+.android-icon {
   width: 25px;
   height: auto;
   margin-right: 235px;
   position: absolute;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: large;
+  font-weight: 500;
+  margin: 5px;
 }
