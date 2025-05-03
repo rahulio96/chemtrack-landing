@@ -36,3 +36,40 @@ h3 {
   margin: 0;
   padding-bottom: 50px;
 }
+
+.button {
+  padding: 20px;
+  width: 260px;
+  margin-bottom: 20px;
+  background-color: #0F82FF;
+  border: transparent;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+.inner-button {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.apple {
+  width: 20px;
+  padding-bottom: 5px;
+  height: auto;
+  margin-right: 235px;
+  position: absolute;
+}
+
+.android {
+  width: 25px;
+  height: auto;
+  margin-right: 235px;
+  position: absolute;
+}
